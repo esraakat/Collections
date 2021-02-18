@@ -26,7 +26,7 @@ namespace Collections
             names2.Add("İlker");
             Console.WriteLine(names2[4]);
 
-            List<string> names3 = new List<string>(); //its alternative
+            List<string> names3 = new List<string>(); //alternative
             names3.Add("Engin");
             names3.Add("Murat");
             names3.Add("Halil");
@@ -38,7 +38,7 @@ namespace Collections
             Console.WriteLine(names3[3]);
             Console.WriteLine(names3[4]);
 
-
+            Console.WriteLine(names3.Count); //number of items
         }
     }
 }
